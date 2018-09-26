@@ -3,14 +3,14 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="10dp">
+    >
 
     <TextView
         android:id="@+id/title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="title"
-        android:gravity="center"
+        android:gravity="center_horizontal"
         android:textSize="16dp"
         />
 
@@ -19,7 +19,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="author"
-        android:gravity="center"
+        android:gravity="center_horizontal"
         android:textSize="16dp"/>
 
     <TextView
@@ -27,6 +27,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="publisher"
-        android:gravity="center"
+        android:gravity="center_horizontal"
         android:textSize="16dp"/>
 </LinearLayout>
