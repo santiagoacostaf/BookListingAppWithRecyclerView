@@ -1,4 +1,4 @@
-#Mon Oct 01 22:42:05 COT 2018
+#Tue Oct 02 23:05:51 COT 2018
 base.0=C\:\\Users\\Santiago\\Documents\\documentos\\AndroidProjects\\book_listing\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\9
 path.0=classes.dex
 renamed.0=classes.dex
