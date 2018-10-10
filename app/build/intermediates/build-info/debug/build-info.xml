@@ -5,36 +5,53 @@
     build-mode="COLD"
     density="xxhdpi"
     format="10"
-    ir-eligibility="COMPATIBLE"
     plugin-version="3.1.2"
-    timestamp="1538793079337"
+    timestamp="1539145153047"
     token="3490267582922990352"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="154" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="16" />
+        duration="0" />
     <task
         name="verifier"
-        duration="5" />
+        duration="0" />
 
     <artifact
-        location="C:\Users\Santiago\Documents\documentos\AndroidProjects\book_listing\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
-        type="SPLIT" />
+        location="C:\Users\Santiago\Documents\documentos\AndroidProjects\book_listing\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
+        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1538792172504"
+        timestamp="1539143597438"
         verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="C:\Users\Santiago\Documents\documentos\AndroidProjects\book_listing\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Santiago\Documents\documentos\AndroidProjects\book_listing\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Santiago\Documents\documentos\AndroidProjects\book_listing\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Santiago\Documents\documentos\AndroidProjects\book_listing\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Santiago\Documents\documentos\AndroidProjects\book_listing\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            type="SPLIT" />
         <artifact
             location="C:\Users\Santiago\Documents\documentos\AndroidProjects\book_listing\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
+        <artifact
+            location="C:\Users\Santiago\Documents\documentos\AndroidProjects\book_listing\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
+            type="SPLIT_MAIN" />
         <artifact
             location="C:\Users\Santiago\Documents\documentos\AndroidProjects\book_listing\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
@@ -45,38 +62,43 @@
             location="C:\Users\Santiago\Documents\documentos\AndroidProjects\book_listing\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Santiago\Documents\documentos\AndroidProjects\book_listing\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Santiago\Documents\documentos\AndroidProjects\book_listing\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Santiago\Documents\documentos\AndroidProjects\book_listing\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-            type="SPLIT" />
-        <artifact
             location="C:\Users\Santiago\Documents\documentos\AndroidProjects\book_listing\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Santiago\Documents\documentos\AndroidProjects\book_listing\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
-            type="SPLIT" />
-        <artifact
             location="C:\Users\Santiago\Documents\documentos\AndroidProjects\book_listing\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        ir-eligibility="R_CLASS_CHANGE"
+        timestamp="1539144450194"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\Santiago\Documents\documentos\AndroidProjects\book_listing\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\Santiago\Documents\documentos\AndroidProjects\book_listing\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Santiago\Documents\documentos\AndroidProjects\book_listing\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
-            type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="COLD"
-        ir-eligibility="COMPATIBLE"
-        timestamp="1538793079337"
-        verifier="COLD_SWAP_REQUESTED" >
+            location="C:\Users\Santiago\Documents\documentos\AndroidProjects\book_listing\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Santiago\Documents\documentos\AndroidProjects\book_listing\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            type="SPLIT" />
         <artifact
             location="C:\Users\Santiago\Documents\documentos\AndroidProjects\book_listing\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
+        <artifact
+            location="C:\Users\Santiago\Documents\documentos\AndroidProjects\book_listing\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1539145153047"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\Santiago\Documents\documentos\AndroidProjects\book_listing\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
+            type="SPLIT_MAIN" />
     </build>
 
 </instant-run>

@@ -22,7 +22,7 @@
     </TextView>
 
     <TextView
-        android:id="@+id/author"
+        android:id="@+id/noBooks"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="author"
